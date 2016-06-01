@@ -1,6 +1,12 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("font-awesome.min.css");
 
+/*
+	Overflow by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1304,7 +1310,6 @@
 /* Basic */
 
 	body {
-		
 		background-color: #183026;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
@@ -1316,7 +1321,7 @@
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: #330026;
+		color: #3a3939;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -1343,7 +1348,7 @@
 		line-height: 1.75em;
 		font-weight: 300;
 		letter-spacing: 1px;
-		color: #330026;
+		color: #3a3939;
 		text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
 		-webkit-text-stroke: 0.25px;
 	}
@@ -1382,10 +1387,10 @@
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #ffb3ec;
+		color: #35b88f;
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
-		border-bottom: dotted 1px #ffb3ec;
+		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
 	}
 
 		a:hover {
@@ -1692,7 +1697,7 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #ffb3ec;
+		background: #35b88f;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -1709,7 +1714,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #ff1ac6;
+			background: #45c89f;
 		}
 
 		input[type="button"].style2,
@@ -1717,7 +1722,7 @@
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			color: #ff1ac6;
+			color: #3a3939;
 			background: #fff;
 			box-shadow: inset 0 0 0 1px #fff;
 		}
@@ -1738,7 +1743,7 @@
 		button.style3,
 		.button.style3 {
 			background: none;
-			color: #ff1ac6;
+			color: #3a3939;
 			box-shadow: inset 0 0 0 1px #dad9d9;
 		}
 
@@ -1927,16 +1932,12 @@
 		text-align: center;
 		margin: 0;
 		padding: 14em 0 14em 0;
-		cursor: default; 
-		background-image: url("images/123.png") center no-repeat;
-		background-size: cover;
+		cursor: default;
 	}
 
 		#header header {
 			display: inline-block;
 			padding: 0 0 4.5em 0;
-			;
-		
 		}
 
 			#header header h1 {
@@ -1947,7 +1948,7 @@
 
 			#header header p {
 				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: #ffb3ff;
+				color: rgba(255, 255, 255, 0.75);
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
 				text-transform: uppercase;
@@ -1961,7 +1962,6 @@
 					display: block;
 					border-top: solid 1px rgba(255, 255, 255, 0.5);
 					margin: 4px 0 0.8em 0;
-
 				}
 
 		#header footer {
@@ -1998,22 +1998,22 @@
 
 	#banner {
 		position: relative;
-		color:  #4d0039;
+		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #ffb3ec  url("images/banner.svg") bottom center no-repeat;
+		background: #35b88f url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: #ff1ac6;
+			color: #35b882;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
 		#banner header {
-			margin: 1em ;
+			margin: 0 0 2em 0;
 		}
 
 			#banner header h2 {
@@ -2023,9 +2023,7 @@
 			}
 
 		#banner p {
-			margin-left: 4em;
-			margin-right: 4em;
-			margin-top: 3em;
+			margin: 0;
 		}
 
 		#banner footer {
@@ -2049,8 +2047,6 @@
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 4.5em 0 0 0;
-
-
 	}
 
 		#footer:after {
@@ -2070,7 +2066,7 @@
 		}
 
 			#footer a:hover {
-				color:  #e600e6;
+				color: #35b88f;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}
@@ -2255,7 +2251,7 @@
 		/* Basic */
 
 			body {
-				background-color: #330026;
+				background-color: #203936;
 				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
@@ -2409,7 +2405,6 @@
 					height: 4.5em;
 				}
 
-
 				.box:before {
 					width: 45px;
 					height: 33px;
@@ -2470,8 +2465,6 @@
 					#header header h1 {
 						font-size: 1.75em;
 						letter-spacing: 6px;
-						
-				
 					}
 
 				#header footer {
