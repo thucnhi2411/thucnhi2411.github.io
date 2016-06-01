@@ -1362,6 +1362,7 @@
 	h2 {
 		font-size: 1.25em;
 		letter-spacing: 8px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
 	}
 
 	h3 {
@@ -1843,9 +1844,11 @@
 
 			.box.style2 header {
 				display: inline-block;
-				background: #fff;
 				padding: 2em 3em 2em 3em;
 				margin: 0;
+				background-image: url(http://freedesignfile.com/upload/2013/01/Seamless-flowers-pattern-3.jpg);
+    			color: black;
+    			font-weight: 900;
 			}
 
 				.box.style2 header p {
@@ -1928,7 +1931,6 @@
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default; 
-		background-image: url("images/123.png") center no-repeat;
 		background-size: cover;
 	}
 
@@ -2005,6 +2007,9 @@
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		color: purple;
+
 	}
 
 		#banner .button {
@@ -2023,7 +2028,16 @@
 			}
 
 		#banner p {
-			margin: 1em ;
+			margin-top: 3em;
+			margin-left: 4em;
+			margin-right: 4em;
+			line-height: 1.5;
+			font-weight: bold;
+		}
+
+		#banner p em {
+			color: white;
+			font-style: normal;
 		}
 
 		#banner footer {
@@ -2535,3 +2549,9 @@
 			}
 
 	}
+
+.special-header {
+	background-image: url(http://freedesignfile.com/upload/2013/01/Seamless-flowers-pattern-3.jpg);
+	font-weight: 900;
+	text-align: center;
+}
